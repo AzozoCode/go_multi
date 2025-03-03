@@ -74,7 +74,7 @@ func main() {
 	sites := []SiteConfig{
 		{
 			URL:           "https://google.com",
-			Frequency:     5,
+			Frequency:     1,
 			AcceptedCodes: []int{200},
 		}, {
 			URL:           "http://localhost.cs",
@@ -83,7 +83,12 @@ func main() {
 		},
 		{
 			URL:           "https://go.dev",
-			Frequency:     4,
+			Frequency:     1,
+			AcceptedCodes: []int{200},
+		},
+		{
+			URL:           "https://innorik.com",
+			Frequency:     1,
 			AcceptedCodes: []int{200},
 		},
 	}
