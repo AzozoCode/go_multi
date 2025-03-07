@@ -1,6 +1,6 @@
 module github.com/azozocode/go_cli
 
-go 1.23.6
+go 1.24
 
 require github.com/pterm/pterm v0.12.80
 

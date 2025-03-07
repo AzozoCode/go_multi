@@ -1,11 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
-	go func(i int) {
-		fmt.Println("Background process running....")
-	}(1)
 
-	select {} //blocks forever
+	for {
+		fmt.Println("this is a test")
+	}
 }
