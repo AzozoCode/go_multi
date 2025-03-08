@@ -9,7 +9,7 @@ import (
 func main() {
 	input := "ls"
 
-	args := []string{"-a"}
+	args := []string{}
 
 	ls := exec.Command(input, args...)
 
